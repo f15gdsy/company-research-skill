@@ -27,6 +27,12 @@
 - 语气←→证据等级绑定
 - 输出前检查清单
 
+## 示例输出
+
+完整框架输出示例（含五级证据标注、语气绑定、thesis break conditions、可信度摘要）：
+
+- [中国中免（601888）公司拆解](examples/中国中免%20-%20公司拆解%2020260527.md) — 消费/免税行业
+
 ## 安装
 
 将 `SKILL.md` 放入 Claude Code 的 `~/.claude/skills/company-research/` 目录即可。
