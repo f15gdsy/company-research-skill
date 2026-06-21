@@ -33,7 +33,7 @@
 
 ## 版本
 
-当前版本：**v2.8.1**
+当前版本：**v2.8.2**
 
 ## 示例输出
 
@@ -41,7 +41,7 @@
 
 ## 安装
 
-将 `SKILL.md` 放入 Claude Code 的 `~/.claude/skills/company-research/` 目录即可。
+将 `SKILL.md` 放入 Claude Code 的 `~/.claude/skills/company-research-ex/` 目录即可。
 
 ## License
 

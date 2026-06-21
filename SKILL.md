@@ -1,17 +1,17 @@
 ---
-name: company-research
+name: company-research-ex
 description: |
   用「三个问题 × 五个动作」框架快速拆解一家陌生公司。不堆数据，而是帮用户从"听过名字"推进到"形成独立判断"。触发场景：用户想研究/拆解/搞懂一家公司（「帮我研究 XX」「拆解 XX」「XX 的商业模式」「XX 凭什么值这么多钱」「XX 是一家什么公司」）。不触发：简单数据查询（「XX 股价多少」「XX 财报」「XX PE」）——那些交给 neodata-financial-search 或 stock-analysis。
 license: MIT
 metadata:
   author: claudian
-  version: "2.8.1"
+  version: "2.8.2"
   risk_level: read_only
   requires_login: false
   requires_mcp: false
 ---
 
-# company-research
+# company-research-ex
 
 用 3 小时把一家陌生公司拆透。核心不是堆数据，而是**用对的问题把用户推到独立判断的阶段**。
 
@@ -390,7 +390,7 @@ title: "[公司名] 公司拆解"
 created: YYYY-MM-DD HH-mm
 type: 公司研究
 status: draft
-skill: company-research v2.4.0
+skill: company-research-ex v2.4.0
 tags:
   - 商业分析
   - 公司研究
@@ -625,9 +625,9 @@ tags:
 |------|--------|
 | 快速查询行情、财报、评级等数据 | `neodata-financial-search` |
 | 深度股票分析（持仓/技术/估值） | `stock-analysis` |
-| **从零搞懂一家陌生公司，形成自己的判断** | **`company-research`（本 skill）** |
+| **从零搞懂一家陌生公司，形成自己的判断** | **`company-research-ex`（本 skill）** |
 
-`company-research` 和 `neodata-financial-search` 的关系：后者提供数据原料（行情、财报、研报），前者提供分析框架和判断逻辑。推荐流程——先用 neodata 拿数据，再用本框架进行结构化分析。
+`company-research-ex` 和 `neodata-financial-search` 的关系：后者提供数据原料（行情、财报、研报），前者提供分析框架和判断逻辑。推荐流程——先用 neodata 拿数据，再用本框架进行结构化分析。
 
 ---
 
